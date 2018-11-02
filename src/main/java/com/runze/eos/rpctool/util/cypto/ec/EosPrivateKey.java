@@ -133,7 +133,7 @@ public class EosPrivateKey {
         return mCurveParam;
     }
 
-    public EcSignature sign(Sha256 digest ) {
+    public EcSignature sign( Sha256 digest ) {
         return EcDsa.sign( digest, this);
     }
 

@@ -4,7 +4,6 @@ D:\workspace\eos\rpctool\src\main\java\com\runze\eos\rpctool\util\cypto\ec\EosPu
 D:\workspace\eos\rpctool\src\main\java\com\runze\eos\rpctool\domain\Wait.java
 D:\workspace\eos\rpctool\src\main\java\com\runze\eos\rpctool\domain\Name.java
 D:\workspace\eos\rpctool\src\main\java\com\runze\eos\rpctool\util\cypto\digest\Ripemd160.java
-D:\workspace\eos\rpctool\src\main\java\com\runze\eos\rpctool\util\ErrorResponse.java
 D:\workspace\eos\rpctool\src\main\java\com\runze\eos\rpctool\domain\AbiJsonToBin.java
 D:\workspace\eos\rpctool\src\main\java\com\runze\eos\rpctool\domain\AccountName.java
 D:\workspace\eos\rpctool\src\main\java\com\runze\eos\rpctool\util\cypto\digest\Sha512.java
@@ -14,10 +13,12 @@ D:\workspace\eos\rpctool\src\main\java\com\runze\eos\rpctool\util\HttpUtils.java
 D:\workspace\eos\rpctool\src\main\java\com\runze\eos\rpctool\util\cypto\util\HexUtils.java
 D:\workspace\eos\rpctool\src\main\java\com\runze\eos\rpctool\util\EosUtils.java
 D:\workspace\eos\rpctool\src\main\java\com\runze\eos\rpctool\util\EstimateRsc.java
+D:\workspace\eos\rpctool\src\main\java\com\runze\eos\rpctool\exception\EosException.java
 D:\workspace\eos\rpctool\src\main\java\com\runze\eos\rpctool\domain\Block.java
 D:\workspace\eos\rpctool\src\main\java\com\runze\eos\rpctool\domain\PermissionLevel.java
 D:\workspace\eos\rpctool\src\main\java\com\runze\eos\rpctool\util\cypto\digest\Sha256.java
 D:\workspace\eos\rpctool\src\main\java\com\runze\eos\rpctool\domain\ChainInfo.java
+D:\workspace\eos\rpctool\src\main\java\com\runze\eos\rpctool\exception\ErrorResponse.java
 D:\workspace\eos\rpctool\src\main\java\com\runze\eos\rpctool\util\cypto\util\BitUtils.java
 D:\workspace\eos\rpctool\src\main\java\com\runze\eos\rpctool\util\cypto\ec\EcDsa.java
 D:\workspace\eos\rpctool\src\main\java\com\runze\eos\rpctool\util\cypto\ec\EcSignature.java

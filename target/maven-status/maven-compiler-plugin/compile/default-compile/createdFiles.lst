@@ -22,11 +22,9 @@ com\runze\eos\rpctool\util\cypto\util\Preconditions.class
 com\runze\eos\rpctool\util\Property.class
 com\runze\eos\rpctool\domain\ChainInfo.class
 com\runze\eos\rpctool\domain\EosType.class
-com\runze\eos\rpctool\util\ErrorResponse.class
 com\runze\eos\rpctool\domain\NewProducers.class
 com\runze\eos\rpctool\domain\Block.class
 com\runze\eos\rpctool\util\cypto\util\Base58.class
-com\runze\eos\rpctool\util\ErrorResponse$Error.class
 com\runze\eos\rpctool\util\cypto\ec\EcDsa$SigChecker.class
 com\runze\eos\rpctool\util\cypto\util\CryptUtil.class
 com\runze\eos\rpctool\domain\SignedTransaction.class
@@ -42,6 +40,7 @@ com\runze\eos\rpctool\domain\Transaction.class
 com\runze\eos\rpctool\domain\PermissionName.class
 com\runze\eos\rpctool\util\cypto\ec\EcDsa.class
 com\runze\eos\rpctool\util\cypto\ec\EcSignature.class
+com\runze\eos\rpctool\exception\EosException.class
 com\runze\eos\rpctool\util\cypto\digest\GeneralDigest.class
 com\runze\eos\rpctool\util\StringUtils.class
 com\runze\eos\rpctool\domain\SimpleAccount$Permission.class
@@ -49,6 +48,7 @@ com\runze\eos\rpctool\util\EstimateRsc.class
 com\runze\eos\rpctool\util\GsonEosTypeAdapterFactory.class
 com\runze\eos\rpctool\domain\RequiredAuth.class
 com\runze\eos\rpctool\util\RefValue.class
+com\runze\eos\rpctool\exception\ErrorResponse.class
 com\runze\eos\rpctool\util\cypto\util\BitUtils.class
 com\runze\eos\rpctool\service\EosService$1.class
 com\runze\eos\rpctool\util\cypto\digest\Ripemd160.class
@@ -58,6 +58,7 @@ com\runze\eos\rpctool\domain\AccountName.class
 com\runze\eos\rpctool\domain\Name.class
 com\runze\eos\rpctool\util\cypto\ec\EosPublicKey$IllegalEosPubkeyFormatException.class
 com\runze\eos\rpctool\domain\EosType$Writer.class
+com\runze\eos\rpctool\exception\ErrorResponse$Error.class
 com\runze\eos\rpctool\domain\Wait.class
 com\runze\eos\rpctool\util\cypto\ec\EcTools.class
 com\runze\eos\rpctool\domain\PermissionLevel.class

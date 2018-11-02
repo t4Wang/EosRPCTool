@@ -1,4 +1,4 @@
-package com.runze.eos.rpctool.util;
+package com.runze.eos.rpctool.exception;
 
 /**
  {

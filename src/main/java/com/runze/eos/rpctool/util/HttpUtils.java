@@ -2,6 +2,8 @@ package com.runze.eos.rpctool.util;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;
+import com.runze.eos.rpctool.exception.EosException;
+import com.runze.eos.rpctool.exception.ErrorResponse;
 import org.apache.http.HttpEntity;
 import org.apache.http.NameValuePair;
 import org.apache.http.StatusLine;
@@ -61,7 +63,7 @@ public class HttpUtils {
         return null;
     }
 
-    private static String post(CloseableHttpClient httpclient, HttpPost httpPost) throws IOException {
+    private static String post(CloseableHttpClient httpclient, HttpPost httpPost) throws EosException, IOException {
         CloseableHttpResponse response = httpclient.execute(httpPost);
         try {
             StatusLine statusLine = response.getStatusLine();
@@ -70,12 +72,12 @@ public class HttpUtils {
             String str = EntityUtils.toString(entity);
             if (statusCode / 100 != 2) {
                 ErrorResponse resp = JSON.parseObject(str, new TypeReference<ErrorResponse>() {});
-                throw new IOException(resp.getError().getCode() + " : " + resp.getError().getName() + "--" + resp.getError().getWhat());
+                throw new EosException(resp.getError().getCode() + " : " + resp.getError().getName() + "--" + resp.getError().getWhat());
             }
 
             EntityUtils.consume(entity);
             return str;
-        } catch (Exception e) {
+        } catch (IOException e) {
             e.printStackTrace();
             throw e;
         } finally {
